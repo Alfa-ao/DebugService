@@ -1,0 +1,15 @@
+{
+    "name": "DebugService",
+    "type": "Library",
+    "license": "MIT",
+    "execute": {
+		"unpack": [
+			"DebugService.lua"
+		]
+	},
+    "files": {
+        "others": [
+            "Packages/Alfa-ao/DebugService/DebugService.lua"
+        ]
+    }
+}
