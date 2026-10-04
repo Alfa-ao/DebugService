@@ -4,7 +4,8 @@
     "license": "MIT",
     "execute": {
 		"unpack": [
-			"DebugService.lua"
+			"DebugService.lua",
+			"test/test.lua"
 		]
 	},
     "files": {
