@@ -1,16 +1,16 @@
 {
     "name": "DebugService",
     "type": "Library",
-    "license": "MIT",
     "execute": {
-		"unpack": [
-			"DebugService.lua",
-			"test/test.lua"
-		]
-	},
+        "unpack": [
+            "DebugService.lua",
+            "test/test.lua"
+        ]
+    },
     "files": {
         "others": [
-            "Packages/Alfa-ao/DebugService/DebugService.lua"
+            "DebugService.lua",
+            "test/test.lua"
         ]
     }
 }
