@@ -3,14 +3,10 @@
     "type": "Library",
     "execute": {
         "unpack": [
-            "DebugService.lua",
-            "test/test.lua"
+            "DebugService.lua"
         ]
     },
     "files": {
-        "others": [
-            "DebugService.lua",
-            "test/test.lua"
-        ]
+        "DebugService.lua": 20
     }
 }
