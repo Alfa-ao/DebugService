@@ -1,5 +1,5 @@
 {
-    "name": "DebugService/Test",
+    "name": "Debug",
     "type": "Library",
     "execute": {
         "unpack": [
