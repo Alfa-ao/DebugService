@@ -10,6 +10,7 @@
         ]
     },
     "files": {
-        "DebugService.lua": 20
+        "DebugService.lua": 20,
+		"/Mods/SampleCommon/CoreScripts/ClassesImplementation.lua": 1
     }
 }
