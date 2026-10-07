@@ -2,9 +2,7 @@
     "name": "Debug",
     "type": "Library",
 	"require": {
-		"ask": {
-			"Alfa-ao/var_dump": "v1.5.2"
-		}
+		"Alfa-ao/var_dump": "v1.5.2"
 	},
     "execute": {
         "unpack": [
