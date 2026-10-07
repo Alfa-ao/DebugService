@@ -9,6 +9,6 @@
     "files": {
         "DebugService.lua": 20,
 		"/Mods/SampleCommon/CoreScripts/AddonBaseUserMods.lua": 100,
-		"/Mods/SampleCommon/CoreScripts/AddonBase.lua": 100,
+		"/Mods/SampleCommon/CoreScripts/AddonBase.lua": 100
     }
 }
