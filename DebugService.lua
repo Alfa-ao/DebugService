@@ -10,12 +10,12 @@ local config = { DEBUG = false, DEBUG_REACTION = true }
 DebugService.Init { General = config.DEBUG, Reaction = config.DEBUG_REACTION }
 
 -- Вывод в mods.txt
-DebugService.LogGeneral( 111, _G.mainForm ) -- игнорируется
+DebugService.LogGeneral( 111, mainForm ) -- игнорируется
 DebugService.LogReaction( 222 ) -- выведет: 222
 
 
 -- Дополнительно для быстроты и удобства:
-log( 111, 222, {}, _G.mainForm )
+log( 111, 222, {}, mainForm )
 
 ]]
 --------------------------------------------------------------------------------
