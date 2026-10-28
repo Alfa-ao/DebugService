@@ -16,13 +16,13 @@ require Alfa-ao/DebugService
 local config = { DEBUG = false, DEBUG_REACTION = true }
 
 -- Создаются две функции: DebugService.LogGeneral и DebugService.LogReaction
-DebugService.Init { General = config.DEBUG, Reaction = config.DEBUG_REACTION }
+DebugService:Init { General = config.DEBUG, Reaction = config.DEBUG_REACTION }
 
 -- Вывод в mods.txt
-DebugService.LogGeneral( 111, _G.mainForm ) -- игнорируется
+DebugService.LogGeneral( 111, mainForm ) -- игнорируется
 DebugService.LogReaction( 222 ) -- выведет: 222
 
 
 -- Дополнительно для быстроты и удобства:
-log( 111, 222, {}, _G.mainForm )
+log( 111, 222, {}, mainForm )
 ```
